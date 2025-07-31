@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main-container">
+        <div class="img">
+            <img src="weatherImg.png" class="logo">
+        </div>
+        <h1>Daily <span>CloudPeek</span></h1>
+        <button class="weather-button" id="startBtn">Get Start</button>
+
+    </section>
+    <section class="weather-check" id="weatherCheck" style="display: none;">
+         <div class="img">
+            <img src="weatherImg.png" id="logo">
+        </div>
+        <div class="search-area" id="searchArea">
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="searchBtn">Get Weather</button>
+        </div>
+    </div>
+  <div class="weaather-result">
+     <h2 id="cityName"></h2>
+         <p id="cityName"></p>
+         <p id="temperature"></p> 
+         <p id="condition"></p>
+         <p id="humidity"></p>
+         <p id="wind"></p>
+  </div>
+    </section>
+    
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
