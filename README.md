@@ -16,18 +16,18 @@ You can search for any city to see current weather details.
 
 🛠 Tech Stack
 
-HTML5 – Page structure
-CSS3 – Styling
-JavaScript (Vanilla) – API calls & logic
-OpenWeatherMap API – Weather data provider
+  HTML – Page structure
+  CSS – Styling
+  JavaScript  – API calls & logic
+  OpenWeatherMap API – Weather data provider
 
 🎯 How It Works
 
-✔ Step 1: Click the Start button ,this switches from the welcome screen to the weather search screen.
-✔ Step 2: Type your city name and click “Search” , or allow location access to fetch weather automatically.
-✔ Step 3: The app will display:
+  ✔ Step 1: Click the Start button ,this switches from the welcome screen to the weather search screen.
+  ✔ Step 2: Type your city name and click “Search” , or allow location access to fetch weather automatically.
+  ✔ Step 3: The app will display:
 
-🌡️ Temperature
-⛅ Condition
-💧 Humidity
-🌬️ Wind Speed
+  🌡️ Temperature
+  ⛅ Condition
+  💧 Humidity
+  🌬️ Wind Speed
